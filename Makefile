@@ -16,7 +16,8 @@ STR_FNS = ft_count_words ft_split ft_strchr \
 		ft_strdup ft_striteri ft_strjoin \
 		ft_strlcat ft_strlcpy ft_strlen \
 		ft_strmapi ft_strncmp ft_strnstr \
-		ft_strrchr ft_strtrim ft_substr
+		ft_strrchr ft_strtrim ft_substr \
+		ft_strndup
 
 CONV_DIR = convert_fns/
 CONV_FNS = ft_atoi ft_atol ft_itoa ft_tolower \

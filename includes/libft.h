@@ -6,7 +6,7 @@
 /*   By: cgray <cgray@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 14:59:04 by cgray             #+#    #+#             */
-/*   Updated: 2024/03/07 13:57:58 by cgray            ###   ########.fr       */
+/*   Updated: 2024/03/28 15:05:01 by cgray            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ int						ft_isalpha(int c);
 int						ft_isascii(int c);
 int						ft_isdigit(int c);
 int						ft_isprint(int c);
+int						ft_isspace(int c);
 char					*ft_itoa(int n);
 int						ft_max(int a, int b);
 void					*ft_memchr(const void *big, int little, size_t len);

@@ -9,7 +9,7 @@ AR = ar rcs
 
 IS_DIR = is_fns/
 IS_FNS = ft_isalnum ft_isalpha ft_isascii \
-		ft_isdigit ft_isprint
+		ft_isdigit ft_isprint ft_isspace
 
 STR_DIR = str_fns/
 STR_FNS = ft_count_words ft_split ft_strchr \

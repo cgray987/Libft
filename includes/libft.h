@@ -6,7 +6,7 @@
 /*   By: cgray <cgray@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 14:59:04 by cgray             #+#    #+#             */
-/*   Updated: 2024/03/28 15:13:49 by cgray            ###   ########.fr       */
+/*   Updated: 2024/03/28 15:19:54 by cgray            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ size_t					ft_strlen(const char *c);
 char					*ft_strmapi(char const *s, char (*f)(unsigned int,
 								char));
 int						ft_strncmp(const char *s1, const char *s2, size_t n);
-int						ft_strndup(const char *s, size_t n);
+char					ft_strndup(const char *s, size_t n);
 char					*ft_strnstr(const char *big, const char *little,
 							size_t len);
 char					*ft_strrchr(const char *string, int search);

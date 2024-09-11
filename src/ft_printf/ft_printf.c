@@ -6,7 +6,7 @@
 /*   By: cgray <cgray@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 17:15:14 by cgray             #+#    #+#             */
-/*   Updated: 2023/12/04 15:14:43 by cgray            ###   ########.fr       */
+/*   Updated: 2024/09/11 17:34:29 by cgray            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,8 @@ int	ft_printf(const char *format, ...)
 	int		print_len;
 
 	print_len = 0;
+	if (format == NULL)
+		return (0);
 	va_start(args, format);
 	while (*format)
 	{
